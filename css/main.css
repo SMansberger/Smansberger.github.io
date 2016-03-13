@@ -8,6 +8,33 @@
 /* ABOUT ============================== */
 
 /* COMPONENTS ============================== */
-section {
-    text-align: center;
+body {
+	margin: 0;
+	background: #111111;
+    color:beige;
+}
+
+h1{
+    font-family:fantasy;
+    padding-top: 5px;
+    line-height: 25px;
+}
+header, section, footer {
+	position: relative;
+	box-sizing: border-box;
+	width: 80%;
+	max-width: 960px;
+    margin:auto;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+article {
+    border: solid 2rem #303030;
+}
+
+ul
+{
+    list-style-type: none;
 }
