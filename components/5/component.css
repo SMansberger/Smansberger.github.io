@@ -1,4 +1,51 @@
 /* Component Stylesheet 
 ============================================================
 ============================================================*/
+body {
+    width: 100%;
 
+}
+#container {
+    width: 800px;
+    margin: 0 auto 0 auto;
+}
+#upperfooter {
+    background-color: #858A98;
+    height: 10px;
+}
+#copy {
+    float:left;
+    color: white;
+    font-size: 1.5em;
+}
+#policy {
+    float: left;
+    color: #737373;
+    font-size: 1.5em;
+}
+i {
+    width: 35px;
+    border: 2px solid #76D898;
+	background-color: transparent;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-khtml-border-radius: 100px;
+	border-radius: 100px;
+	position: relative;
+ }
+.fa {
+    width: 44px;
+    height: 44px;
+    color: #76D898;
+    text-align: center;
+    padding: 12px;
+    margin: 0 2px 0 0;
+    float: right;
+}
+#middlefooter {
+    background-color: #272B36;
+    height: 70px;
+}
+#socialmediaicons {
+    padding-top: 35px;
+}

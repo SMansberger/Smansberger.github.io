@@ -2,3 +2,44 @@
 ============================================================
 ============================================================*/
 
+#container {
+    width: 80%; 
+    max-width: 800px; 
+    margin: 0 auto;
+    display: block;
+}
+.flexslider {
+    width: 800px;
+}
+.slides {
+    background: #272B36; 
+}
+.fa{
+    color: #76D898;
+}
+.fa-quote-left {
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.fa-quote-right {
+    float: right;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+.slides img {
+    float: left;
+    max-height: 150px;
+    max-width: 150px;
+    border-radius: 100px;
+    border: 3px solid #76D898;
+    margin-top: 60px;
+    margin-left: 15px;
+
+}
+.slides p{
+    margin: 50px 50px 0 250px;
+    color: #76D898;
+    max-height: 253px;
+
+}
