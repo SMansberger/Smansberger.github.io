@@ -2,3 +2,66 @@
 ============================================================
 ============================================================*/
 
+/* this would normally be contained within the body of the main HTML body and would not necessarily need to be constrained with its own css*/
+#main {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+h2 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: Helvetica Neue;
+}
+
+#intro p {
+    color: #737373;
+    padding: 10px 10px 20px 10px;
+}
+.child {
+    width: 22%;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+.child h3 {
+    font-size: 2em;
+    color: #3F3C4F;
+}
+
+i {
+    padding-top: 15px;
+	min-height: 100px;
+    width: 99px;
+    border: 5px solid #76D898;
+	background-color: transparent;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-khtml-border-radius: 100px;
+	border-radius: 100px;
+	color: #42546B;
+	position: relative;
+    margin-bottom: 10px;
+ }
+
+.child p {
+    color: #737373;
+}
+
+.readmore p {
+    margin-top: 10px;
+    border: 2px solid #76D898;
+	background-color: transparent;
+	color: #76D898;
+	position: relative;
+    width: 60%;
+    padding: 5px 0 5px 0;
+    margin: 10px auto 0 auto;
+}
+
+.readmore p:hover {
+    border: 2px solid white;
+    background-color: #76D898;
+    color: white;
+}

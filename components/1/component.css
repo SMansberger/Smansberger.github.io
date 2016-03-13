@@ -2,3 +2,43 @@
 ============================================================
 ============================================================*/
 
+body{
+    margin:0px;
+    background:#000;
+}
+.header {
+    height:150px;
+    background:#272B36;
+    width:100%;
+    top: 0px;
+    position: fixed;
+}
+.header img {
+    margin: 35px 0px 0px 150px;
+    float: left;
+}
+.header ul {
+    font-size: 2em;
+    display: block;
+    margin-top: 55px;
+    margin-left: 700px;
+    white-space: nowrap;
+}
+.header ul:after {
+    clear: both;
+}
+.header li {
+    margin-left: 20px;
+    display: inline-block;
+}
+.header li a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+.content {
+    width:900px;
+    background: #808080;
+    border: 1px solid #CCC;
+    height: 1500px;
+    margin: 20px auto;
+}
