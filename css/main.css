@@ -13,12 +13,11 @@ body {
 	background: #111111;
     color:beige;
 }
-h1{
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-    padding-top: 5px;
-    line-height: 25px;
-    padding-bottom: 10px;
+
+header img{
+    margin-bottom: 10px;
 }
+
 header, section, footer {
 	position: relative;
 	box-sizing: border-box;
@@ -33,6 +32,7 @@ img {
 article {
     background: #333333;
     border: solid 2rem #333333;
+   margin-bottom: 15px;
 }
 ul
 {
