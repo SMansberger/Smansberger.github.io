@@ -18,12 +18,16 @@ header img{
     margin-bottom: 10px;
 }
 
+h2 {
+    margin-bottom: 5px;
+}
 header, section, footer {
 	position: relative;
 	box-sizing: border-box;
 	width: 80%;
 	max-width: 960px;
     margin:auto;
+        
 }
 img {
     width: 100%;
@@ -32,7 +36,10 @@ img {
 article {
     background: #333333;
     border: solid 2rem #333333;
-   margin-bottom: 15px;
+    margin-bottom: 15px;
+}
+article img {
+    margin-bottom: 5px;
 }
 ul
 {
