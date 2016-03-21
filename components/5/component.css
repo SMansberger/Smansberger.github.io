@@ -11,6 +11,9 @@ footer {
     border-bottom: 15px solid white;
     background-color: #272B36;
     height: 95px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 #container {
     width: 800px;
