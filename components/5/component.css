@@ -3,15 +3,18 @@
 ============================================================*/
 body {
     width: 100%;
+    background: black;
 
+}
+footer {
+    border-top:10px solid #858A98;
+    border-bottom: 15px solid white;
+    background-color: #272B36;
+    height: 95px;
 }
 #container {
     width: 800px;
     margin: 0 auto 0 auto;
-}
-#upperfooter {
-    background-color: #858A98;
-    height: 10px;
 }
 #copy {
     float:left;
@@ -41,10 +44,6 @@ i {
     padding: 12px;
     margin: 0 2px 0 0;
     float: right;
-}
-#middlefooter {
-    background-color: #272B36;
-    height: 70px;
 }
 #socialmediaicons {
     padding-top: 35px;
