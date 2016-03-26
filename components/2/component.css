@@ -3,53 +3,66 @@
 ============================================================*/
 
 /* this would normally be contained within the body of the main HTML body and would not necessarily need to be constrained with its own css*/
-#main {
+#features {
     text-align: center;
     width: 80%;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
+    color: #737373;
+}
+ul {
+    list-style: none;
+    overflow:visible;
+}
+li {
+    float: left;
+    max-width: 25%;
+    min-width: 200px;
+    padding: 5px;
 }
 h2 {
     text-align: center;
     font-size: 3em;
     font-weight: bold;
     font-family: Helvetica Neue;
+    text-transform: uppercase;
 }
-
-#intro p {
-    color: #737373;
-    padding: 10px 10px 20px 10px;
-}
-.child {
-    width: 22%;
-    display: inline-block;
-    text-align: center;
-    padding: 10px;
-}
-.child h3 {
+h3 {
     font-size: 2em;
     color: #3F3C4F;
+    text-transform: uppercase;
 }
-
-i {
-    padding-top: 15px;
-	min-height: 100px;
-    width: 99px;
-    border: 5px solid #76D898;
-	background-color: transparent;
-	-moz-border-radius: 100px;
-	-webkit-border-radius: 100px;
-	-khtml-border-radius: 100px;
-	border-radius: 100px;
-	color: #42546B;
-	position: relative;
-    margin-bottom: 10px;
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/fonts/fontawesome-webfont.eot?v=4.5.0');
+    src: url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/fonts/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.5.0') format('woff2'), url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/fonts/fontawesome-webfont.woff?v=4.5.0') format('woff'), url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/fonts/fontawesome-webfont.ttf?v=4.5.0') format('truetype'), url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.nature h3:after {
+   content: "\f040";
+}
+.planning h3:after {
+   content: "\f072";
+}
+.modeling h3:after {
+   content: "\f109";
  }
-
-.child p {
-    color: #737373;
+.development h3:after {
+    content: "\f126";
 }
-
-.readmore p {
+:after {
+    font: 3rem FontAwesome;
+    color: #42546B;
+    display: block;
+    border: 3px solid #76D898;
+    border-radius: 50%;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.button p {
     margin-top: 10px;
     border: 2px solid #76D898;
 	background-color: transparent;
@@ -58,9 +71,9 @@ i {
     width: 60%;
     padding: 5px 0 5px 0;
     margin: 10px auto 0 auto;
+    text-transform:uppercase;
 }
-
-.readmore p:hover {
+.button p:hover {
     border: 2px solid white;
     background-color: #76D898;
     color: white;
