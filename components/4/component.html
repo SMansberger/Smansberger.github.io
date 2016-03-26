@@ -1,42 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>WSP Component: Firstname Lastname</title>
-
+	<title>WSP Component: Steven Mansberger</title>
 	<link rel="stylesheet" type="text/css" href="../../css/reset.css" />
 	<link rel="stylesheet" type="text/css" href="component.css" />
-
-	
 </head>
 <body>
-
-	<!-- Component -->
-    <div id="container">
-        <h2>CONTACT FORM</h2>
-
+<!-- Component -->
     <form>
-        <div id="left">
-            
-            <input placeholder="Name:" type="text" name="name" id="name">
-        </div>
-        <div id="right">
-            
-            <input placeholder="Email:" type="text" name="Email" id="email">
-        </div>
-        <div id="center">
-            
-            <input placeholder="Phone:" class="wrapped-input" id="phone" type="text">
-        </div>
-        <div> 
-            <textarea placeholder="Message:" class="wrapped-input" id="message"></textarea>
-        </div>
-        <div>
-            <input id="submit" type="submit">
-        </div>
-
+        <h2>Contact Form</h2>
+        <ul>
+            <li>
+                <input placeholder="Name:" type="text" name="name" id="name">
+            </li>
+            <li>
+                <input placeholder="Email:" type="text" name="Email" id="email">
+            </li>
+            <li>
+                <input placeholder="Phone:" class="wrapped-input" id="phone" type="text">
+            </li>
+        </ul>
+        <textarea placeholder="Message:" class="wrapped-input"></textarea>
+        <button class="button" type="submit">Submit</button>
     </form>
-</div>
-	<!-- End Component -->
-	
+<!-- End Component -->
 </body>
 </html>
