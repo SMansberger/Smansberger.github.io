@@ -1,0 +1,26 @@
+img {
+
+    height: 300px;
+    width: 300px;
+    position: relative;
+    animation-name: slidingBackground;
+    -webkit-animation-name: slidingBackground; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: slidingBackground;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes slidingBackground {
+    0%   {background-color:white; left:0px; top:0px;}
+    100% {background-color:red; left:30%; top:0px; opacity: 1;}
+}
+/* Standard syntax */
+@keyframes slidingBackground {
+    0%   {background-color:white; left:0px; top:0px;}
+    100% {background-color:red; left:30%; top:0px; opacity: 1;}
+}
