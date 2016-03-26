@@ -1,45 +1,60 @@
 /* Component Stylesheet 
 ============================================================
 ============================================================*/
-
-#container {
+#wrapper {
     width: 80%; 
     max-width: 800px; 
     margin: 0 auto;
     display: block;
+    color: #76D898;
 }
 .flexslider {
     width: 800px;
 }
 .slides {
-    background: #272B36; 
-}
-.fa{
-    color: #76D898;
-}
-.fa-quote-left {
-    float: left;
-    padding-top: 10px;
-    padding-left: 10px;
-}
-.fa-quote-right {
-    float: right;
-    padding-bottom: 10px;
-    padding-right: 10px;
+    background: #272B36;
+    padding: 25px 50px;
 }
 .slides img {
     float: left;
     max-height: 150px;
     max-width: 150px;
-    border-radius: 100px;
+    border-radius: 50%;
     border: 3px solid #76D898;
-    margin-top: 60px;
-    margin-left: 15px;
-
+    margin: 20px;
 }
 .slides p{
-    margin: 50px 50px 0 250px;
-    color: #76D898;
     max-height: 253px;
-
+    margin-top: 25px;
+}
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/fonts/fontawesome-webfont.eot?v=4.5.0');
+    src: url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/fonts/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.5.0') format('woff2'), url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/fonts/fontawesome-webfont.woff?v=4.5.0') format('woff'), url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/fonts/fontawesome-webfont.ttf?v=4.5.0') format('truetype'), url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.flexslider:first-child:before {
+    font: 3rem FontAwesome;
+    content: "\f10d";
+    color: #76D898;
+    position: absolute;
+    padding: 10px;
+}
+/*
+I couldn't find an object to reference :after without needing to reposition with negative right and bottom values.
+*/
+.slides p:last-child:after {
+    font: 3rem FontAwesome;
+    content: "\f10e";
+    color: #76D898;
+    position:absolute;
+    right: -40px;
+    bottom: -15px;
+}
+.flex-direction-nav a:before {
+color: #76D898;
+}
+.flex-direction-nav a:after {
+color: #76D898;
 }
